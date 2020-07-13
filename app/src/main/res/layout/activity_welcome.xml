@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00B324"
+    tools:context=".WelcomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="Get\nthe Fastest\nDelivery"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="Order food and get\ndelivery in the fastest time in the\ntown."
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"/>
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#040404"
+            android:text="Get Started"
+            android:textStyle="bold"
+            android:fontFamily="@font/comfortaa"
+            android:textAllCaps="false"
+            android:background="@drawable/custom_background"/>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/image"/>
+    </LinearLayout>
+</RelativeLayout>
